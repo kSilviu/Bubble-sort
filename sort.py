@@ -9,6 +9,5 @@ def bubbleSort(x):
             if x[h] > x[h+1]:
                 x[h], x[h+1] = x[h+1], x[i]
                 swapped = True
-        if (swapped = False):
+        if (swapped == False):
             break
-
