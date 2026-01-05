@@ -2,7 +2,7 @@ def bubbleSort(x):
 
     indexNumber = len(x)-1
 
-    for i in indexNumber(n):
+    for i in range(indexNumber):
         swapped = False
 
         for h in range(0, n-i-1):
