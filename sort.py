@@ -1,8 +1,7 @@
 def bubbleSort(x):
 
     indexNumber = len(x)
-    sortedCheck = False
-
+    
     for i in range(indexNumber):
         swapped = False
 
