@@ -8,4 +8,3 @@ A sorting algorithm.
 #start at inde x 0 and compare it with 1 and so on until you reach the last index.
 #use swap to tell when the list is sorted
 
-need to make the bubble sort function repeat and check that the list is complete.
