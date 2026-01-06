@@ -1,6 +1,7 @@
 def bubbleSort(x):
 
     indexNumber = len(x)
+    sortedCheck = False
 
     for i in range(indexNumber):
         swapped = False
@@ -9,6 +10,6 @@ def bubbleSort(x):
             if x[h] > x[h+1]:
                 x[h], x[h+1] = x[h+1], x[h]
                 swapped = True
-        if (swapped == False):
+        if not swapped:
             break
-        return x
+    return x
